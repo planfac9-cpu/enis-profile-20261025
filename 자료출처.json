@@ -1,0 +1,157 @@
+{
+  "reference": "https://sweni.netlify.app",
+  "company": "http://www.enis.co.kr",
+  "pages": {
+    "ceo": "http://www.enis.co.kr/kr/bbs/content.php?co_id=ceo",
+    "history": "http://www.enis.co.kr/kr/bbs/content.php?co_id=history",
+    "organization": "http://www.enis.co.kr/kr/bbs/content.php?co_id=organization",
+    "busi_soil_5": "http://www.enis.co.kr/kr/bbs/content.php?co_id=busi_soil_5",
+    "busi_soil_6": "http://www.enis.co.kr/kr/bbs/content.php?co_id=busi_soil_6",
+    "busi_climate_3": "http://www.enis.co.kr/kr/bbs/content.php?co_id=busi_climate_3",
+    "busi_climate_4": "http://www.enis.co.kr/kr/bbs/content.php?co_id=busi_climate_4",
+    "busi_climate_5": "http://www.enis.co.kr/kr/bbs/content.php?co_id=busi_climate_5",
+    "license": "http://www.enis.co.kr/kr/bbs/content.php?co_id=license",
+    "res_climate": "http://www.enis.co.kr/kr/bbs/content.php?co_id=res_climate"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "title": "에니스 소개",
+      "status": "replaced",
+      "images": [
+        "logo.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "회사개요·연혁",
+      "status": "replaced",
+      "images": [
+        "busi_climate_5_1.jpg"
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "조직도",
+      "status": "replaced",
+      "images": [
+        "organ.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "사업영역",
+      "status": "replaced",
+      "images": [
+        "20240722150947_.jpg",
+        "busi_climate_5_3.jpg"
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "토양·지하수 정화",
+      "status": "replaced",
+      "images": [
+        "business01-01-img-01.jpg",
+        "business01-02-img-01.jpg",
+        "business01-03-img-01.jpg",
+        "business01-04-img-01.jpg"
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "퇴적토·자원순환",
+      "status": "replaced",
+      "images": [
+        "business02-img-11.jpg",
+        "business02-img-10.jpg",
+        "business02-img-17.jpg"
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "환경분석·컨설팅",
+      "status": "replaced",
+      "images": [
+        "business06-img-01.jpg",
+        "business06-03-img-01.jpg"
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "반입정화센터",
+      "status": "replaced",
+      "images": [
+        "busi_soil_5_1.jpg",
+        "busi_soil_5_2.jpg",
+        "busi_soil_5_3.jpg",
+        "yc_aerial.jpg",
+        "yc_storage1.jpg",
+        "yc_storage2.jpg",
+        "yc_thermal.jpg",
+        "yc_washer.jpg",
+        "ns_aerial.jpg",
+        "ns_overview.jpg",
+        "ns_storage.jpg",
+        "ns_purify.jpg",
+        "ns_washing.jpg",
+        "zero_air_in.jpg",
+        "zero_air_out.jpg",
+        "zero_wheelwash.jpg",
+        "zero_wastewater.jpg"
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "방사능 오염 방제",
+      "status": "new",
+      "images": [
+        "radsoil_view_video.jpg",
+        "radsoil_tour_03_screen.jpg"
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "기후테크",
+      "status": "replaced",
+      "images": [
+        "busi_climate_5_2.jpg",
+        "busi_climate_3_1.png",
+        "busi_climate_3_2.png",
+        "busi_climate_3_3.png",
+        "busi_climate_3_4.png",
+        "busi_climate_3_5.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "사업실적·면허",
+      "status": "replaced",
+      "images": [
+        "2021122316371311_.jpg",
+        "20240722150947_.jpg",
+        "20240722150930_.jpg",
+        "20240722150912_.jpg",
+        "20231005132355_.jpg",
+        "20231005132446_.jpg",
+        "20231005132502_.jpg",
+        "20231005132528_.jpg",
+        "license_1.jpg"
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "사업문의",
+      "status": "replaced",
+      "images": [
+        "busi_climate_5_3.jpg"
+      ]
+    }
+  ],
+  "design_revision": "R08",
+  "media": {
+    "video": "assets/video/enis_history_720p.mp4",
+    "twin": "twin/index.html",
+    "twin_radsoil": "twin_radsoil/index.html"
+  }
+}

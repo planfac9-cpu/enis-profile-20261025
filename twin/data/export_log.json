@@ -1,0 +1,209 @@
+{
+ "lod": "final",
+ "warnings": [],
+ "stats": {
+  "objects": 374,
+  "verts": 144600,
+  "faces": 109642,
+  "by_id": {
+   "site": {
+    "objects": 13,
+    "verts": 7206
+   },
+   "wet": {
+    "objects": 2,
+    "verts": 16
+   },
+   "wet_str": {
+    "objects": 23,
+    "verts": 16590
+   },
+   "absorber": {
+    "objects": 7,
+    "verts": 7078
+   },
+   "v1121": {
+    "objects": 7,
+    "verts": 5406
+   },
+   "v1131": {
+    "objects": 7,
+    "verts": 5406
+   },
+   "v1901": {
+    "objects": 8,
+    "verts": 5406
+   },
+   "wet_shed": {
+    "objects": 10,
+    "verts": 2294
+   },
+   "vsa": {
+    "objects": 3,
+    "verts": 490
+   },
+   "membrane": {
+    "objects": 18,
+    "verts": 7990
+   },
+   "liq_pad": {
+    "objects": 1,
+    "verts": 8
+   },
+   "liq": {
+    "objects": 24,
+    "verts": 15210
+   },
+   "aircooler": {
+    "objects": 11,
+    "verts": 3016
+   },
+   "liq_drum1": {
+    "objects": 7,
+    "verts": 4326
+   },
+   "liq_drum2": {
+    "objects": 7,
+    "verts": 4326
+   },
+   "lco2": {
+    "objects": 14,
+    "verts": 5512
+   },
+   "boiler": {
+    "objects": 14,
+    "verts": 4084
+   },
+   "stack": {
+    "objects": 8,
+    "verts": 3290
+   },
+   "ct_a": {
+    "objects": 11,
+    "verts": 1798
+   },
+   "ct_b": {
+    "objects": 11,
+    "verts": 1798
+   },
+   "util": {
+    "objects": 13,
+    "verts": 2360
+   },
+   "aircomp": {
+    "objects": 8,
+    "verts": 1140
+   },
+   "potable": {
+    "objects": 8,
+    "verts": 2434
+   },
+   "admin": {
+    "objects": 13,
+    "verts": 2268
+   },
+   "lorry1": {
+    "objects": 13,
+    "verts": 1882
+   },
+   "lorry2": {
+    "objects": 13,
+    "verts": 1882
+   },
+   "road": {
+    "objects": 4,
+    "verts": 564
+   },
+   "future": {
+    "objects": 3,
+    "verts": 216
+   },
+   "rackA": {
+    "objects": 14,
+    "verts": 11054
+   },
+   "rackB": {
+    "objects": 13,
+    "verts": 8344
+   },
+   "rackV": {
+    "objects": 13,
+    "verts": 5162
+   },
+   "wwt": {
+    "objects": 7,
+    "verts": 328
+   },
+   "ro_sump": {
+    "objects": 3,
+    "verts": 24
+   },
+   "ro_tank_raw": {
+    "objects": 3,
+    "verts": 506
+   },
+   "ro_tank_perm": {
+    "objects": 3,
+    "verts": 506
+   },
+   "ro_filter_solid": {
+    "objects": 3,
+    "verts": 578
+   },
+   "ro_filter_carbon": {
+    "objects": 3,
+    "verts": 578
+   },
+   "ro_mf0": {
+    "objects": 1,
+    "verts": 218
+   },
+   "ro_mf1": {
+    "objects": 1,
+    "verts": 218
+   },
+   "ro_mf2": {
+    "objects": 1,
+    "verts": 218
+   },
+   "ro_mf3": {
+    "objects": 1,
+    "verts": 218
+   },
+   "ro_sq_tank": {
+    "objects": 3,
+    "verts": 40
+   },
+   "ro_chem": {
+    "objects": 3,
+    "verts": 66
+   },
+   "ro_pumps": {
+    "objects": 4,
+    "verts": 880
+   },
+   "ro_skid": {
+    "objects": 7,
+    "verts": 354
+   },
+   "ro_vessel1": {
+    "objects": 3,
+    "verts": 640
+   },
+   "ro_vessel2": {
+    "objects": 3,
+    "verts": 640
+   },
+   "ro_panel": {
+    "objects": 4,
+    "verts": 32
+   }
+  }
+ },
+ "materials": 45,
+ "images": 80,
+ "unmapped": [],
+ "glb_bytes": 4287728,
+ "seconds": 4.0,
+ "ref_render": "ok"
+}

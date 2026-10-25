@@ -1,0 +1,14 @@
+{
+ "image": "assets/logo.png",
+ "specs": [
+  {
+   "id": "admin",
+   "faces": [
+    "+z"
+   ],
+   "frac": 0.34,
+   "maxW": 7.5,
+   "v": 0.72
+  }
+ ]
+}

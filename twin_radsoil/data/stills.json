@@ -1,0 +1,16 @@
+{
+ "_env": "env_studio_1k.hdr",
+ "tour_02_mill": "tour_02_mill.jpg",
+ "tour_02_mill_xray": "tour_02_mill_xray.jpg",
+ "tour_03_screen": "tour_03_screen.jpg",
+ "tour_03_screen_xray": "tour_03_screen_xray.jpg",
+ "tour_04_coarse": "tour_04_coarse.jpg",
+ "tour_06_bag": "tour_06_bag.jpg",
+ "view_all": "view_all.jpg",
+ "view_dust": "view_dust.jpg",
+ "view_feed": "view_feed.jpg",
+ "view_fines": "view_fines.jpg",
+ "view_mill": "view_mill.jpg",
+ "view_top": "view_top.jpg",
+ "view_video": "view_video.jpg"
+}

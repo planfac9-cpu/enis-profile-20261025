@@ -1,0 +1,240 @@
+{
+"R1DE_STEEL": {
+"c": "#9eabb3",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"R1DF_DUCT_COMMON": {
+"c": "#9eabb3",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"V7_DUCT_galvanized_duct_8F9298": {
+"c": "#9eabb3",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"V7_BL-01_paint_default_6B7285": {
+"c": "#61687b",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"V7_DT101_paint_default_56858F": {
+"c": "#56858f",
+"m": 0.1,
+"r": 0.35,
+"f": "paint",
+"a": 1.0
+},
+"RESTORE_PANEL_S": {
+"c": "#8fa7b2",
+"m": 0.0,
+"r": 0.55,
+"f": "paint",
+"a": 0.0
+},
+"RESTORE_PANEL_N": {
+"c": "#8fa7b2",
+"m": 0.0,
+"r": 0.55,
+"f": "paint",
+"a": 0.0
+},
+"V7_M-103_steel_h100_747A7E_IN": {
+"c": "#747a7e",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"R1DE_PROCESS_CONNECT": {
+"c": "#487a84",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"V7_DT101_pur_B2A78F": {
+"c": "#a4997f",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_R03_Hood_ExplanationXray": {
+"c": "#0599a4",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_V01_PartitionTeal": {
+"c": "#0599a4",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_R03C_HD07_DUST_SPIGOT_DustContrast": {
+"c": "#e0bb00",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_HOOD": {
+"c": "#384864",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_HOPPER": {
+"c": "#384864",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"WPA_C1": {
+"c": "#7a94a2",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_V01_Soil": {
+"c": "#956940",
+"m": 0.0,
+"r": 0.88,
+"f": "soil",
+"a": 1.0
+},
+"E_V01_PaintedFrame": {
+"c": "#2a4c58",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_V01_Chain": {
+"c": "#1c2125",
+"m": 0.0,
+"r": 0.74,
+"f": "rubber",
+"a": 1.0
+},
+"R1DF_STEEL_MATTE": {
+"c": "#747a7e",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"R1DF_PROCESS_COMMON": {
+"c": "#487a84",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_M-108_shell": {
+"c": "#a49958",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_RUBBER": {
+"c": "#1c2125",
+"m": 0.0,
+"r": 0.74,
+"f": "rubber",
+"a": 1.0
+},
+"R1DE_M-113_shell": {
+"c": "#a49958",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_BACKFILTER_OPAQUE": {
+"c": "#647068",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_M-117_opaque": {
+"c": "#535d67",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"R1DE_M-118_opaque": {
+"c": "#5f6d7a",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"WPA_C5_SUPPORT": {
+"c": "#829099",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"WPA_C5_RETURN": {
+"c": "#829099",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"E_V01_SatinSteel": {
+"c": "#9eabb3",
+"m": 0.86,
+"r": 0.28,
+"f": "metal",
+"a": 1.0
+},
+"E_R03E_PU_CLEANER_DARK_GRAY_NOT_PRODUCT": {
+"c": "#1c2125",
+"m": 0.0,
+"r": 0.74,
+"f": "rubber",
+"a": 1.0
+},
+"V7_TB-101_paint_default_B89B55": {
+"c": "#ab8d3f",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"V7_TB-102_paint_default_B89B55": {
+"c": "#ab8d3f",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+},
+"V7_TB-103_paint_default_B89B55": {
+"c": "#ab8d3f",
+"m": 0.18,
+"r": 0.34,
+"f": "paint",
+"a": 1.0
+}
+}

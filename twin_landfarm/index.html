@@ -1,0 +1,51 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>경작법 정화시설 디지털 트윈 (개념 모델)</title>
+<script type="importmap">{"imports":{"three":"../twin/vendor180/three.module.min.js","three/addons/":"../twin/vendor180/addons/"}}</script>
+<style>
+:root{--ink:#163c52;--blue:#277fb6;--panel:#ffffffee;--line:#d3e2e8;font-family:"Avenir Next","Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:var(--ink)}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#d6dfe6}
+#stage{position:fixed;inset:0}#view{width:100%;height:100%;display:block;touch-action:none}
+#labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.label{position:absolute;left:0;top:0;pointer-events:auto;border:0;border-radius:4px;background:#163c52e6;color:#fff;font:600 12px/1.3 inherit;padding:4px 8px;white-space:nowrap;cursor:pointer;box-shadow:0 2px 8px #0003;font-family:inherit}
+.label:after{content:"";position:absolute;left:50%;top:100%;width:1px;height:10px;background:#163c52aa}
+.panel{position:fixed;background:var(--panel);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:10px;padding:14px 16px;box-shadow:0 10px 30px #1a364a1f}
+#top{left:16px;top:16px;right:16px;display:flex;align-items:center;gap:16px;padding:10px 16px}
+#top h1{font-size:15px;margin:0;font-weight:700}#top .badge{font-size:10px;background:#ffb300;color:#2b1d00;border-radius:999px;padding:3px 9px;font-weight:700;letter-spacing:.04em;white-space:nowrap}
+#meta{font-size:10px;color:#6c8794;margin-left:auto;max-width:48%;line-height:1.3}#hover{font-size:11px;color:#2e5a74;min-width:120px}
+#fullscreen,#views button,.wide{font:inherit;font-size:11px;border:1px solid #b9cdd8;background:#fff;color:var(--ink);border-radius:6px;padding:7px 8px;cursor:pointer}#views button:hover{background:#eef5f8}
+#side{right:16px;top:76px;width:270px;max-height:calc(100% - 92px);overflow:auto;display:none;padding-top:26px}body.panel-open #side{display:block}
+#side h3{font-size:11px;letter-spacing:.06em;color:#6c8794;margin:14px 0 6px;font-weight:600}#side h3:first-child{margin-top:0}
+#views{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+#cats label,.opt{display:flex;align-items:center;gap:8px;font-size:12px;padding:3px 0;cursor:pointer}#cats i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.opt input[type=range]{flex:1}
+.sim{font-size:10px;color:#8a5a00;background:#fff3d6;border-radius:5px;padding:5px 8px;margin-top:8px;line-height:1.4}
+#panel-btn{position:fixed;right:14px;top:66px;z-index:4;font:inherit;font-size:11.5px;font-weight:700;border:1px solid #b9cdd8;background:#ffffffee;color:#12364a;border-radius:999px;padding:7px 12px;cursor:pointer;box-shadow:0 4px 14px #1a364a22}body.panel-open #panel-btn{display:none}
+.close-x{position:absolute;right:8px;top:6px;border:0;background:transparent;font:inherit;font-size:14px;color:#6c8794;cursor:pointer;padding:4px 6px}
+#info{left:16px;bottom:16px;width:min(440px,calc(100% - 32px));display:none;padding-top:26px}#info.show{display:block}#info h2{font-size:15px;margin:6px 0 4px;line-height:1.35}#info .facts{font-size:12px;color:#2e5a74;margin:0 0 6px}#info .note{font-size:11.5px;line-height:1.55;color:#4c6a78;margin:0 0 6px}#info .src{font-size:10px;color:#8ca0aa;margin:0}
+.chip{display:inline-block;font-size:10px;color:#fff;border-radius:999px;padding:2px 8px;margin-right:4px;font-weight:600}.chip.est{background:#fff1d6;color:#7a4b06;border:1px solid #e0a21b66}
+#legend{left:16px;top:76px;font-size:11px;padding:10px 12px;display:grid;gap:4px}#legend span{display:flex;align-items:center;gap:7px}#legend i{width:11px;height:11px;border-radius:3px;display:inline-block}
+#help{right:16px;bottom:16px;font-size:10.5px;color:#6c8794;padding:8px 12px}
+#loading{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);background:#163c52ee;color:#fff;font-size:13px;font-weight:700;padding:12px 18px;border-radius:10px;z-index:9}
+body.embed #top{left:auto;right:16px;top:12px;padding:6px 10px;gap:10px;border-radius:999px}body.embed #top h1,body.embed #meta{display:none}body.embed #help{display:none}body.embed #legend{top:66px}
+body.mini #side,body.mini #info,body.mini #panel-btn,body.mini #legend,body.mini #top{display:none}
+@media(max-width:800px){#side,#meta,#help,#legend{display:none}#top{padding:8px 12px}}
+</style></head><body>
+<div id="stage"><canvas id="view"></canvas><div id="labels"></div></div><div id="loading">3D 모델 불러오는 중 …</div>
+<header id="top" class="panel"><h1>경작법 정화시설 디지털 트윈</h1><span class="badge">개념 모델 · 도식 기반 · 치수 가정</span><span id="hover"></span><span id="meta">경작법(Landfarming) 반입정화 셀 단면 도식을 3D 로 옮긴 개념 모델(Blender 절차 모델 · glb). 길이·두께는 일반 설계 범위의 가정값.</span><button id="fullscreen">전체화면</button></header>
+<button id="panel-btn" title="시점·표시 구성·보기 옵션">☰ 보기 설정</button>
+<aside id="side" class="panel"><button class="close-x" id="side-close" title="닫기">✕</button>
+ <h3>시점</h3><div id="views"></div>
+ <h3>표시 구성</h3><div id="cats"></div>
+ <h3>보기</h3>
+ <label class="opt"><input type="checkbox" id="toggle-cut" checked>단면 보기 (앞쪽 절개)</label>
+ <label class="opt">절개 위치 <input type="range" id="cut-pos" min="-8" max="8" step="0.5" value="0"></label>
+ <label class="opt"><input type="checkbox" id="toggle-cover" checked>빗물유입차단시설 표시</label>
+ <label class="opt"><input type="checkbox" id="toggle-pc" checked>폴리카보네이트 판 표시 (해제 = 골조만)</label>
+ <label class="opt"><input type="checkbox" id="toggle-anim" checked>굴착기·살수·침출수 흐름 애니메이션</label>
+ <label class="opt"><input type="checkbox" id="toggle-labels">라벨 전체 표시 (기본: 클릭한 구성만)</label>
+ <div class="sim">도식(경작법 정화시설 단면)의 구성 요소만 옮긴 개념 모델입니다. 셀 규모·층 두께·경사는 가정값이며 특정 현장의 설계가 아닙니다.</div>
+</aside>
+<section id="info" class="panel"><button class="close-x" id="info-close">✕</button><div id="info-body"></div></section>
+<div id="legend" class="panel"></div>
+<div id="help" class="panel">드래그 회전 · 휠 확대 · 우클릭/두 손가락 이동 · 구성 클릭 = 정보</div>
+<script type="module" src="app.js"></script>
+</body></html>
