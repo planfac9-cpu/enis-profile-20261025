@@ -1,0 +1,31 @@
+{
+  "engine": "Cycles",
+  "device": "METAL",
+  "blender": "5.2.2 LTS",
+  "resolution": [
+    2200,
+    1300
+  ],
+  "samples": 72,
+  "denoise": true,
+  "color": "AgX Medium High Contrast, exposure -0.45",
+  "assumptions": "Original conceptual layout, illustrative fabrication/access/yard. Not as-built.",
+  "outputs": [
+    {
+      "name": "overview",
+      "seconds": 8.45,
+      "path": "/Users/planpower/enis-company-profile/twin_sediment/data/photo/overview.jpg"
+    },
+    {
+      "name": "wash",
+      "seconds": 8.45,
+      "path": "/Users/planpower/enis-company-profile/twin_sediment/data/photo/wash.jpg"
+    },
+    {
+      "name": "advanced",
+      "seconds": 7.48,
+      "path": "/Users/planpower/enis-company-profile/twin_sediment/data/photo/advanced.jpg"
+    }
+  ],
+  "seconds": 32.39
+}
